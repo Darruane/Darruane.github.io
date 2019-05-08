@@ -188,20 +188,21 @@ img.hover-shadow {
 <h1>Click Thumbnails To Open Them</h1>
 
 <!-- Images used to open the lightbox -->
-<div class="row">
+<div class="container">
+  <div class="row">
     <div class="col-sm">
-      <img src="day_thumbnail.png" class="img-thumbnail" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  <img src="time_icon.png" class="img-thumbnail" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  
     </div>
     <div class="col-sm">
-      <img src="night_thumbnail.png" class="img-thumbnail" onclick="openModal();currentSlide(2)" class="hover-shadow">
+    <img src="bug_icon.png" class="img-thumbnail" onclick="openModal();currentSlide(2)" class="hover-shadow">
+ 
     </div>
     <div class="col-sm">
-      <img src="hall_thumbnail.png" class="img-thumbnail" onclick="openModal();currentSlide(3)" class="hover-shadow">
+    <img src="tuff_icon.png" class="img-thumbnail" onclick="openModal();currentSlide(3)" class="hover-shadow">
+ 
     </div>
-	    <div class="col-sm">
-      <img src="door_thumbnail.png" class="img-thumbnail" onclick="openModal();currentSlide(4)" class="hover-shadow">
-    </div>
-      </div>
+  </div>
 </div>
 
 <!-- The Modal/Lightbox -->
@@ -210,23 +211,18 @@ img.hover-shadow {
   <div class="modal-content">
 
     <div class="mySlides">
-      <div class="numbertext">1 / 4</div>
-      <img src="temple_day.png" style="width:100%">
+      <div class="numbertext">1 / 3</div>
+      <img src="time.png" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">2 / 4</div>
-      <img src="temple_night.png" style="width:100%">
+      <div class="numbertext">2 / 3</div>
+      <img src="bug.png" style="width:100%">
     </div>
 
     <div class="mySlides">
-      <div class="numbertext">3 / 4</div>
-      <img src="castle_hall.png" style="width:100%">
-    </div>
-
-    <div class="mySlides">
-      <div class="numbertext">4 / 4</div>
-      <img src="castle_door.png" style="width:100%">
+      <div class="numbertext">3 / 3</div>
+      <img src="tuff.png" style="width:100%">
     </div>
 
     <!-- Next/previous controls -->
@@ -240,19 +236,15 @@ img.hover-shadow {
 
     <!-- Thumbnail image controls -->
     <div class="column">
-      <img class="demo" src="day_thumbnail.png" onclick="currentSlide(1)" alt="2nd year Drawing project (1)">
+      <img class="demo" src="stereo_thumbnail.png" onclick="currentSlide(1)" alt="A stereo">
     </div>
 
     <div class="column">
-      <img class="demo" src="night_thumbnail.png" onclick="currentSlide(2)" alt="2nd year Drawing project (2)">
+      <img class="demo" src="tower_thumbnail.png" onclick="currentSlide(2)" alt="A tower for use in the game">
     </div>
 
     <div class="column">
-      <img class="demo" src="hall_thumbnail.png" onclick="currentSlide(3)" alt="2nd year Game project (1)">
-    </div>
-
-    <div class="column">
-      <img class="demo" src="door_thumbnail.png" onclick="currentSlide(4)" alt="2nd year Game project (2)">
+      <img class="demo" src="cradle_thumbnail.png" onclick="currentSlide(3)" alt="A small desk ornament">
     </div>
   </div>
 </div>
@@ -261,6 +253,7 @@ img.hover-shadow {
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 
 <script>
